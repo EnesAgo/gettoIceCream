@@ -1,0 +1,15 @@
+# http://humanstxt.org/
+
+
+/* TEAM */
+
+  Developer & Designer: Enes Ago
+  Contact: 070 600 370
+  instagram: @agoenes
+
+/* SITE */
+
+  Last update: 03/30/2024
+  Standards: HTML5, CSS3, microdata, microformats
+  Components: HTML5, PureCSS
+  // Hosting: Hostinger
