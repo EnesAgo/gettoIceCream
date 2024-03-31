@@ -71,18 +71,16 @@
     /*padding: 50px 0;*/
     display: flex;
     flex-direction: column;
-    z-index: 10;
+    z-index: -5;
 }
 .divisor-section-3 .parallaxBackground{
     position: absolute;
     width: 100%;
     height: 75%;
     bottom: -8%;
-    z-index: 5;
 }
 .divisor-section-3 .wavyBg{
     width: 100%;
-    z-index: 15;
 }
 .divisor-section-3 .section-3-container{
     min-height: 350px;
@@ -94,10 +92,6 @@
     justify-content: center;
 
     gap: 30px;
-    /*z-index: -5;*/
-}
-.divisor-section-3 .section-3-container > header{
-    z-index: 5;
 }
 .divisor-section-3 .section-3-container > header h2{
     font-family: "Khula", sans-serif;
@@ -114,7 +108,7 @@
     margin: 20px;
 }
 .divisor-section-3 .section-3-container ul li{
-    z-index: 15;
+    z-index: 5;
 }
 .divisor-section-3 .section-3-container ul li article {
     width: 300px;
@@ -144,6 +138,38 @@
     color: #54595F;
 }
 
+
+
+/* section 4 */
+.divisor-section-4{
+    padding: 125px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.divisor-section-4 article{
+    width: 45%;
+}
+.divisor-section-4 article header h2{
+    font-family: "Arima", system-ui;
+    font-size: 35px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+}
+.divisor-section-4 article p {
+    font-family: "Arima", system-ui;
+    font-size: 18px;
+    font-weight: 400;
+    color: #525C60;
+}
+.divisor-section-4 img{
+    width: 30%;
+}
+
+
 /* responsive */
 @media only screen and (max-width: 1060px) {
     .divisor-section-1 img{
@@ -172,6 +198,19 @@
         text-align: center;
     }
     .divisor-section-2 img {
+        width: 40%;
+    }
+
+    .divisor-section-4{
+        flex-direction: column;
+    }
+    .divisor-section-4 article{
+        width: 80%;
+    }
+    .divisor-section-4 article header{
+        text-align: center;
+    }
+    .divisor-section-4 img {
         width: 40%;
     }
 
