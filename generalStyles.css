@@ -4,7 +4,6 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    /*font-family: 'Roboto', sans-serif;*/
     font-family: "Arima", system-ui;
 
 }
@@ -62,6 +61,9 @@ body {
     width: 100%;
     background: #fff;
 }
+.wavyBg{
+    width: 100%;
+}
 
 .header-menu{
     grid-area: header-menu;
@@ -99,7 +101,7 @@ body {
 
 }
 .header-menu nav ul li a{
-    font-family: Roboto, sans-serif;
+    font-family: "Khula", sans-serif;
     color: #274C5B;
     font-weight: 600;
     font-size: 16px;
@@ -117,7 +119,8 @@ body {
 #language > p{
     position: relative;
 
-    font-family: roboto;
+    font-family: "Khula", sans-serif;
+
     color: #274C5B;
     font-weight: 600;
     font-size: 16px;
@@ -174,63 +177,20 @@ footer{
 
 /* footer */
 footer{
+    padding: 250px 0;
     min-height: 100px;
-    background: #2C3B38;
+    background: #fff;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
 }
-/*footer nav{*/
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*}*/
-footer nav ul{
+footer .footer-container{
+    background: #FFA5BA;
+    min-height: 200px;
     width: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-footer nav ul li{
-    min-width: 200px;
-    height: 200px;
-    margin: 0 30px;
-}
-footer nav ul li section{
-    display: flex;
-    gap: 10px;
-}
-footer nav ul li h3{
-    color: #FFFFFFCC;
-    margin: 10px 0;
-
-    font-family: Roboto, sans-serif;
-    /*font-family: sans-serif;*/
-    font-size: 25px;
-    font-weight: 500;
-}
-footer nav ul li a{
-    color: #FFFFFF4C;;
-    font-size: 15px;
-    transition: 350ms;
-    line-height: 25px;
-}
-footer nav ul li a:hover{
-    color: #fff;
-}
-footer nav ul li section a img{
-    background-color: #fff;
-    font-size: 15px;
-    transition: 350ms;
-    line-height: 25px;
-    width: 30px;
-    border-radius: 100%;
-}
-footer nav ul li section a:hover img{
-    background-color: #FFFFFF4C;
-
 }
 
 @media only screen and (max-width: 1000px){
@@ -360,20 +320,4 @@ footer nav ul li section a:hover img{
         width: 90%;
     }
 
-
-    /*footer*/
-    footer{
-        min-height: 1100px;
-    }
-    footer nav{
-        top: 35%;
-    }
-    footer nav ul{
-        flex-direction: column;
-        text-align: center;
-        gap: 35px;
-    }
-    footer nav ul li section{
-        justify-content: center;
-    }
 }
