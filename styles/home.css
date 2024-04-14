@@ -8,7 +8,9 @@
     width: 100%;
 }
 .divisor-section-1 article {
-    font-family: "Arima", system-ui;
+    /* font-family: "Arima", system-ui; */
+    font-family: Helvetica;
+
     position: absolute;
     z-index: 10;
     top: 50%;
@@ -18,7 +20,9 @@
     flex-direction: column;
 }
 .divisor-section-1 article header h1{
-    font-family: "Arima", system-ui;
+    /* font-family: "Arima", system-ui; */
+    font-family: Helvetica;
+
     font-size: 50px;
     font-weight: 900;
     color: #000;
@@ -26,7 +30,9 @@
 
 }
 .divisor-section-1 article p{
-    font-family: "Arima", system-ui;
+     font-family: "Arima", system-ui;
+    /*font-family: Helvetica;*/
+
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 3px;
@@ -47,14 +53,18 @@
     width: 35%;
 }
 .divisor-section-2 article header h2{
-    font-family: "Arima", system-ui;
+    /* font-family: "Arima", system-ui; */
+    font-family: Helvetica;
+
     font-size: 30px;
     font-weight: 700;
     color: #000;
     margin-bottom: 20px;
 }
 .divisor-section-2 article p {
-    font-family: "Arima", system-ui;
+    /* font-family: "Arima", system-ui; */
+    font-family: Helvetica;
+
     font-size: 18px;
     font-weight: 400;
     color: #525C60;
@@ -155,14 +165,18 @@
     width: 45%;
 }
 .divisor-section-4 article header h2{
-    font-family: "Arima", system-ui;
+    /* font-family: "Arima", system-ui; */
+    font-family: Helvetica;
+
     font-size: 35px;
     font-weight: 500;
     color: #000;
     margin-bottom: 20px;
 }
 .divisor-section-4 article p {
-    font-family: "Arima", system-ui;
+    /* font-family: "Arima", system-ui; */
+    font-family: Helvetica;
+
     font-size: 18px;
     font-weight: 400;
     color: #525C60;
@@ -183,7 +197,9 @@
     gap: 30px;
 }
 .divisor-section-5 header h2{
-    font-family: "Arima", system-ui;
+    /* font-family: "Arima", system-ui; */
+    font-family: Helvetica;
+
     font-size: 45px;
     font-weight: 500;
     color: #000;
