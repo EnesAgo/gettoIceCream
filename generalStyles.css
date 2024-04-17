@@ -177,7 +177,7 @@ footer{
 
 /* footer */
 footer{
-    padding: 250px 0;
+    padding-top: 250px;
     min-height: 100px;
     background: #fff;
 
@@ -188,8 +188,10 @@ footer{
     position: relative;
 }
 footer .footer-container{
+    padding: 150px;
     background: #FFA5BA;
     min-height: 200px;
+    height: auto;
     width: 100%;
 }
 
