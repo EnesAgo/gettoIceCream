@@ -278,6 +278,12 @@
         width: 40%;
     }
 
+    .divisor-section-3 .parallaxBackground{
+
+        height: 75%;
+        bottom: 20%;
+    }
+
     .divisor-section-4{
         flex-direction: column;
     }

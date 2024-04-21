@@ -177,7 +177,7 @@ footer{
 
 /* footer */
 footer{
-    padding-top: 250px;
+    padding-top: 350px;
     min-height: 100px;
     background: #fff;
 
@@ -188,11 +188,36 @@ footer{
     position: relative;
 }
 footer .footer-container{
-    padding: 150px;
+    padding: 100px 50px;
     background: #FFA5BA;
-    min-height: 200px;
+    min-height: 425px;
     height: auto;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .footer-container div{
+    height: 100%;
+}
+
+footer .footer-container div h3{
+    font-family: Helvetica;
+
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+footer .footer-container div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer .footer-container div ul li a{
+    display: flex;
+    gap: 15px;
+    color: #fff;
 }
 
 @media only screen and (max-width: 1000px){
