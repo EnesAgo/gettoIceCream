@@ -30,11 +30,11 @@
 
 }
 .divisor-section-1 article p{
-     font-family: "Arima", system-ui;
-    /*font-family: Helvetica;*/
+     /*font-family: "Arima", system-ui;*/
+    font-family: Helvetica;
 
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 3px;
     color: #000;
 }
@@ -94,8 +94,8 @@
     width: 100%;
 }
 .divisor-section-3 .section-3-container{
-    min-height: 350px;
-    background-color: #C69CB7;
+    min-height: 600px;
+    background-color: #FFA6C9;
 
     display: flex;
     flex-direction: column;
@@ -124,30 +124,44 @@
 }
 .divisor-section-3 .section-3-container ul li article {
     width: 300px;
-    height: 250px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+    text-align: left;
     gap: 5px;
-    background-color: #FDEFEE;
+    background-color: #fff;
     border-radius: 50px;
     padding: 20px;
 }
+.divisor-section-3 .section-3-container ul li article .first{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.divisor-section-3 .section-3-container ul li article .second {
+    height: 20%;
+}
 .divisor-section-3 .section-3-container ul li article img{
-    width: 75px;
+    width: 60%;
+}
+.divisor-section-3 .section-3-container ul li article img:nth-child(2) {
+    width: 100%;
 }
 .divisor-section-3 .section-3-container ul li article h3{
     font-family: "Kanit", sans-serif;
     font-size: 30px;
     font-weight: 700;
-    color: #072233;
+    color: #FFA6C9;
 }
 .divisor-section-3 .section-3-container ul li article p{
     font-family: "Kanit", sans-serif;
     font-size: 20px;
     font-weight: 400;
-    color: #54595F;
+    color: #FFA6C9;
 }
 
 
